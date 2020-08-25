@@ -1,0 +1,25 @@
+nav a {
+  border-right: 3px solid black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+nav a:last-child {
+  border: none;
+}
+
+header {
+  display: flex;
+  height: 300px;
+  background-color: green;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  background-color: red;
+  height: 80%;
+}
+nav a {
+  justify-content: center;
+}
